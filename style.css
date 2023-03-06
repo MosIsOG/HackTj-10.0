@@ -1,0 +1,62 @@
+* {
+    overflow-x: hidden;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Body */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+}
+
+/* Main heading */
+.myDiv1 h1 {
+    color: #ff8080;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+/* Subheading */
+.myDiv1 h2.test {
+    color: #696969;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    color: #696969;
+}
+
+/* Select boxes */
+select {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #d94d4d;
+    /* background-color: #ff8080; */
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e60000;
+    cursor: pointer;
+}
